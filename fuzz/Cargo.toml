@@ -30,3 +30,9 @@ name = "wgsl_parser"
 path = "fuzz_targets/wgsl_parser.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "glsl_parser"
+path = "fuzz_targets/glsl_parser.rs"
+test = false
+doc = false
